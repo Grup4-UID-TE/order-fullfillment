@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/header.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+
+  <title>UITE</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <p>Group4</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#description">Deskripsi</a></li>
+        <li><a href="#">Anggota</a></li>
+        <li><a href="#">LH 1 - Analisis</a></li>
+        <li><a href="#">LH 2 - Perancangan</a></li>
+        <li><a href="#">LH 3 - Prototype</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="home-jumbotron">
+      <img src="https://live.staticflickr.com/65535/33792125018_8e6a234766_b.jpg" alt="">
+      <div class="home-jumbotron-overlay">
+        <span>Order Fullfillment</span>
+      </div>
+    </div>
+    <div class="description" id="description">
+      <h1>Deskripsi Order Fullfillment</h1>
+      <div>
+        <p>Website yang kami bangun merupakan merupakan web yang berisikan mengenai Order Fulfillment Process. Di dalam
+          website ini mencakup deskripsi ringkas, anggota grup, area kerja, analisis permasalahan dan kebutuhan,
+          alternatif perancangan interface, prototipe dari perancangan interface, dan kontribusi setiap anggota grup.
+        </p>
+        <p>Bagian deskripsi memuat penjelasan secara singkat mengenai website dan Order Fulfillment Process. Bagian
+          anggota grup memuat identitas setiap anggota yang menjadi bagian di dalam grup. Bagian analisis permasalahan
+          dan kebutuhan memuat permasalahan user dan isu maupun konstrain yang terkait dengan permasalahan Order
+          Fulfillment Process seperti user yang terlibat, task yang harus diselesaikan, dan fungsi utama yang harus
+          dilakukan oleh sistem sesuai kebutuhan user. Bagian perancangan memuat rancangan interface yang sebagai solusi
+          dari permasalahan Order Fulfillment Process. Bagian prototipe memuat prototipe secara detail dengan
+          menunjukkan fungsi utama dari interface bekerja sesuai dengan yang diinginkan.
+        </p>
+        <p>Order Fulfillment Process adalah proses penerimaan sesuatu atau barang, kemudian memproses dan mengirimkan
+          pesanan kepada pelanggan. Proses singkatnya, yaitu dimulai dengan pelanggan melakukan pemesanan dan berakhir
+          setelah mereka menerimanya. Namun, jika pembeli ingin mengembalikan produk, Order Fulfillment juga mengelola
+          transaksi pengembalian dengan baik dan benar. Order Fulfillment Process umumnya dimulai dengan ordering task,
+          di mana pesanan pembelian dapat dibuat, diubah, disetujui, atau ditolak. Jika pesanan ditolak atau tidak
+          dikonfirmasi tepat waktu, proses akan berakhir, jika tidak, maka akan berlanjut ke tahap selanjutnya yaitu
+          Carrier Appointment. Tugas ini berkaitan dengan persiapan shipment quote, dengan pengaturan pengiriman dan
+          pengambilan dan berpuncak pada pengambilan barang sebenarnya dari Carrier Department. Jika quote tidak
+          disiapkan tepat waktu, seluruh proses akan berakhir dan pesanan dibatalkan. Jika pengangkutan diambil, proses
+          Payment dan Freight in Transit dimulai secara paralel. Lalu diakhiri dengan pengiriman barang yang sebenarnya
+          ke pelanggan.
+        </p>
+        <p>Selain Process utama di atas, terdapat juga subprocess lainnya yang ada pada Order Fulfillment Process ini,
+          diantaranya ; The Ordering Subprocess, Carrier Appointment Subprocess, The Payment Subprocess, The Freight in
+          Transit Process, dan The Freight Delivery Subprocess. Seluruh subprocess tersebut memiliki tanggung jawab dan
+          tugasnya yang berbeda masing-masing, satu sama lain, beserta user yang ada didalamnya.
+        </p>
+        <p>Subprocess pertama yaitu Ordering Subprocess, Ordering subprocess dimulai dengan membuat Purchase Order (PO)
+          oleh Order Management Department. Lalu PO menunggu di-approve oleh Supply Department. Pembuatan PO ditangani
+          oleh OD Clerk yang dapat membuat keputusan untuk dialokasikan ulang atau tidak kepada PO Manager. PO Manager
+          dapat membuat keputusan untuk berhenti mengerjakan task dan menawarkannya kepada PO Manager yang lain,
+          melakukan penundaan terhadap PO untuk sementara waktu atau menjadi titik masuk utama untuk memproses PO selama
+          jangka waktu tertentu. Ketika mereka memutuskan menjadi titik masuk utama, maka sistem akan memulai tugas
+          tersebut secara otomatis.
+        </p>
+        <p>Kemudian Pada Carrier Appointment Subprocess, Pada Carrier Appointment Process, ketika PO dikonfirmasi
+          dimulai dengan mempersiapkan rute panduan dan penggunaan trailernya.
+        </p>
+        <p>Penggunaan trailer ditentukan dengan memperkirakan jumlah paket yang akan dikirimkan dimana setiap paket
+          memiliki pengenal dan volume yang telah ditetapkan. Operasi ini dilakukan secara paralel oleh dua tugas yaitu
+          Prepare Route Guide dan Estimate Trailer Usage ,Tugas sebelumnya dialokasikan ke Shipment Planner dengan
+          antrean kerja terpendek, sedangkan tugas terakhir dialokasikan ke Shipment Planner yang telah dialokasikan.
+        </p>
+        <p>Lalu The Payment Subprocess, dimana .proses ini memiliki dua komponen yaitu ; payment for shipment dan
+          payment for freight. Hal pertama yang perlu dilakukan untuk menangani payment for shipment adalah membuat
+          shipment invoice, yang berisikan seputar biaya pengiriman. yang mencakup nomor pesanan, nomor pengiriman dan
+          perusahan terkait.
+        </p>
+        <p>Selanjutnya yaitu The Freight in Transit Subprocess, proses ini dilakukan dengan menangani pengiriman dan
+          menangani pertanyaan klien, pada saat pengiriman barang, truk dapat mengunjungi beberapa tujuan, dari tujuan
+          tersebut dapat menjadi patokan dimana letak tujuan pengiriman barang. Saat titik lintasan dikunjungi oleh truk
+          pengiriman, pemberitahuan titik lintasan(trackpoint) dikeluarkan oleh Courier Setelah semua titik lintasan
+          dikunjungi, Carrier Admin Officers perlu mencatat Trackpoint Order Entry untuk setiap titik tuju.
+        </p>
+        <p>
+          Dan yang terakhir, melanjutkan dari sebelumnya adalah The Freight in Delivery Subprocess, proses ini dapat
+          dikatakan sebagai subproses terakhir dari seluruh rangkaian Order Fulfillment Process, dimana pada process ini
+          client dapat mengajukan pengembalian barang atau mengajukan klaim kerugian atau kerusakan setelah dilakukan
+          pengiriman barang. Dokumen pengembalian barang berisi alasan mengapa arang dikembalikan, sedangkan klaim
+          kerugian dan kerusakan berisi alasan melakukan klaim. Kedua dokumen ini dimasukkan ke dalam sistem oleh Client
+          Liaison atas permintaan client.
+        </p>
+        <p>
+          Demikian penjelasan masing-masing subproses beserta skenario dengan seluruh user yang terkait didalamnya,
+          besar kemungkinan untuk terdapat kejadian yang tak terduga yang menyebabkan proses satu dengan yang lainnya
+          berjalan tidak lancar.
+        </p>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
