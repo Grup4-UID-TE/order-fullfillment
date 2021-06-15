@@ -31,3 +31,9 @@ nav ul li a {
   color: var(--nav-text);
   margin: 0 0.6rem;
 }
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}

@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="stylesheet" href="/assets/header.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/header.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
     <nav>
       <ul>
         <li><a href="#description">Deskripsi</a></li>
-        <li><a href="#">Anggota</a></li>
+        <li><a href="#anggota">Anggota</a></li>
         <li><a href="#">LH 1 - Analisis</a></li>
         <li><a href="#">LH 2 - Perancangan</a></li>
         <li><a href="#">LH 3 - Prototype</a></li>
@@ -31,13 +31,13 @@
   </header>
 
   <main>
-    <div class="home-jumbotron">
+    <section class="home-jumbotron">
       <img src="https://live.staticflickr.com/65535/33792125018_8e6a234766_b.jpg" alt="">
       <div class="home-jumbotron-overlay">
         <span>Order Fullfillment</span>
       </div>
-    </div>
-    <div class="description" id="description">
+    </section>
+    <section class="description" id="description">
       <h1>Deskripsi Order Fullfillment</h1>
       <div>
         <p>Website yang kami bangun merupakan merupakan web yang berisikan mengenai Order Fulfillment Process. Di dalam
@@ -110,7 +110,54 @@
           berjalan tidak lancar.
         </p>
       </div>
-    </div>
+    </section>
+    <section class="anggota" id="anggota">
+      <h1>Anggota Grup</h1>
+      <div class="anggota-item flex-left">
+        <div class="anggota-item-img">
+          <div>
+            <img src="./assets/images/rizky.jpeg" alt="">
+          </div>
+        </div>
+        <div class="anggota-item-desc">
+          <h2>Mohammad Rizky Maulidhan</h2>
+          <p>191524049</p>
+        </div>
+      </div>
+      <div class="anggota-item flex-right bg-gray">
+        <div class="anggota-item-img">
+          <div>
+            <img src="./assets/images/faza.png" alt="">
+          </div>
+        </div>
+        <div class="anggota-item-desc">
+          <h2>Muhammad Faza Ilmanuddin R.</h2>
+          <p>191524050</p>
+        </div>
+      </div>
+      <div class="anggota-item flex-left">
+        <div class="anggota-item-img">
+          <div>
+            <img src="./assets/images/syahid.jpeg" alt="">
+          </div>
+        </div>
+        <div class="anggota-item-desc">
+          <h2>Muhammad Syahid A.</h2>
+          <p>191524051</p>
+        </div>
+      </div>
+      <div class="anggota-item flex-right bg-gray">
+        <div class="anggota-item-img">
+          <div>
+            <img src="./assets/images/wafi.jpeg" alt="">
+          </div>
+        </div>
+        <div class="anggota-item-desc">
+          <h2>Wafi Khoirun Nashirin</h2>
+          <p>191524064</p>
+        </div>
+      </div>
+    </section>
   </main>
 </body>
 
