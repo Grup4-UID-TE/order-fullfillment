@@ -139,6 +139,23 @@ section>h1 {
   order: 1;
 }
 
+.kontribusi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kontribusi>table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
 @media (max-width: 1500px) {
   .home-jumbotron-overlay>span {
     font-size: 5rem;
